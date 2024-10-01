@@ -1,0 +1,22 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio Recording, Transcription, and Conversation</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #conversation p { margin-top: 10px; }
+    #loading { display: none; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Audio Recording and Conversation</h1>
+  <button id="record-btn">Record Audio</button>
+  <div id="loading">Processing...</div>
+  <div id="conversation"></div> <!-- Updated element -->
+
+  <!-- Use ES6 modules -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>

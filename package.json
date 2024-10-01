@@ -1,0 +1,23 @@
+{
+  "name": "jsrewrite3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.66.1",
+    "path": "^0.12.7"
+  }
+}
